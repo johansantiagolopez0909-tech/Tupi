@@ -31,6 +31,3 @@ jobs:
         with:
           name: TUPI-apk
           path: app/build/outputs/apk/debug/app-debug.apk
-concurrency:
-  group: build
-  cancel-in-progress: true
