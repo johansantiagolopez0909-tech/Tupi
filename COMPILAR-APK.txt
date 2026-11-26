@@ -1,0 +1,17 @@
+TUPI — Proyecto Android 2D
+
+Aplicación Android de pantalla completa. El juego corre localmente dentro de la app (no abre Chrome).
+Incluye menú, controles táctiles, plataformas, estrellas, enemigos, vidas y meta.
+
+COMPILACIÓN AUTOMÁTICA:
+1. Sube el contenido de esta carpeta a un repositorio GitHub.
+2. Abre Actions y ejecuta "Build TUPI APK" con Run workflow.
+3. Cuando termine, descarga el artifact "TUPI-apk".
+4. Dentro estará app-debug.apk; puedes renombrarlo TUPI.apk e instalarlo en Android.
+
+COMPILACIÓN LOCAL:
+Requiere JDK 17, Android SDK Platform 35 y Gradle 8.9.
+Ejecuta: gradle assembleDebug
+Salida: app/build/outputs/apk/debug/app-debug.apk
+
+NOTA: En el entorno donde se preparó este proyecto no están instalados Android SDK ni Gradle; por eso no se ha podido producir ni probar aquí el APK.
